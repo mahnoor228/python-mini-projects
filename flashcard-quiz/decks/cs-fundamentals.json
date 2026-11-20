@@ -1,0 +1,42 @@
+[
+    {
+        "a": "Object-Oriented Programming",
+        "q": "What does OOP stand for?"
+    },
+    {
+        "a": "def",
+        "q": "In Python, what keyword defines a function?"
+    },
+    {
+        "a": "Stack",
+        "q": "Which data structure follows LIFO (last in, first out)?"
+    },
+    {
+        "a": "O(log n)",
+        "q": "What is the time complexity of binary search on a sorted list?"
+    },
+    {
+        "a": "extends",
+        "q": "In Java, which keyword makes one class inherit from another?"
+    },
+    {
+        "a": "Structured Query Language",
+        "q": "What does SQL stand for?"
+    },
+    {
+        "a": "Dictionary",
+        "q": "In Python, which built-in data structure stores key-value pairs?"
+    },
+    {
+        "a": "HyperText Transfer Protocol",
+        "q": "What does HTTP stand for?"
+    },
+    {
+        "a": "try",
+        "q": "In Python, what keyword is used to handle exceptions?"
+    },
+    {
+        "a": "Quicksort",
+        "q": "Which sorting algorithm has an average time complexity of O(n log n) and picks a pivot element?"
+    }
+]
