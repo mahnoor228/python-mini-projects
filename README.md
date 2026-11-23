@@ -1,12 +1,14 @@
 # Python Mini Projects
 
-A collection of small, genuinely useful command-line tools — each one a
-complete, working program in a single file. Built to practice clean Python:
-type hints, docstrings, `argparse` CLIs, and zero dependencies.
+A collection of small, genuinely useful programs — each one a complete,
+working project in its own folder. Built to practice clean Python:
+type hints, docstrings, `argparse` CLIs, and readable code.
 
-**Python 3.10+** — every project uses the standard library only, except the
-QR Code Generator, which needs the `qrcode` library
-(`pip install -r qr-code-generator/requirements.txt`).
+**Python 3.10+** — the first seven projects use the standard library only,
+except the QR Code Generator, which needs the `qrcode` library
+(`pip install -r qr-code-generator/requirements.txt`). The three newest
+projects use NumPy, Matplotlib, pandas, yfinance, and scikit-learn
+(`pip install -r <project>/requirements.txt`).
 
 | Project | What it does | How to run |
 | --- | --- | --- |
@@ -17,5 +19,14 @@ QR Code Generator, which needs the `qrcode` library
 | [unit-converter](unit-converter/) | US ↔ metric unit converter, CLI + Tkinter GUI | `python unit-converter/unit_converter.py 10 miles kilometers` |
 | [qr-code-generator](qr-code-generator/) | Generates a QR code image from text or a URL | `python qr-code-generator/qr_generator.py "https://example.com"` |
 | [flashcard-quiz](flashcard-quiz/) | Flashcard quizzer with a missed-card review round | `python flashcard-quiz/flashcards.py` |
+| [wave-equation-simulator](wave-equation-simulator/) | Vibrating drum skin: damped 2D wave equation, finite differences, animated in 3D | `python wave-equation-simulator/wave_simulator.py` |
+| [stock-portfolio-dashboard](stock-portfolio-dashboard/) | Portfolio dashboard from real Yahoo Finance prices: returns, volatility, correlations, drawdowns, risk vs return | `python stock-portfolio-dashboard/portfolio_dashboard.py` |
+| [neural-network-from-scratch](neural-network-from-scratch/) | MLP in pure NumPy, trained on real handwritten digits, with loss-landscape + gradient-descent-path plots | `python neural-network-from-scratch/neural_network.py` |
 
 Each project folder has its own README with full usage and examples.
+
+The three newest projects are from
+[@mario.ships' reel "3 Python projects that make recruiters stop scrolling"](https://www.instagram.com/reel/DfPvsXetLBa/)
+(Nov 2, 2026). The stock dashboard uses real market prices via yfinance and
+the neural net trains on the real sklearn digits dataset — no synthetic data
+presented as real anywhere in this repo.

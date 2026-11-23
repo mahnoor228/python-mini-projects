@@ -1,0 +1,7 @@
+ticker,annualised_return,annualised_volatility,sharpe_ratio,max_drawdown,total_return
+AAPL,0.2981,0.2569,1.0,-0.3336,1.79
+MSFT,0.2252,0.2653,0.7,-0.345,1.0879
+NVDA,0.6795,0.4864,1.31,-0.4753,7.7984
+GOOGL,0.3333,0.3124,0.94,-0.3403,2.0051
+AMZN,0.3266,0.3284,0.87,-0.3088,1.876
+PORTFOLIO,0.3726,0.2421,1.37,-0.2642,2.7727
