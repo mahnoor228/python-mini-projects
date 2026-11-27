@@ -22,7 +22,6 @@ yfinance, and scikit-learn (`pip install -r <project>/requirements.txt`).
 | [wave-equation-simulator](wave-equation-simulator/) | Vibrating drum skin: damped 2D wave equation, finite differences, animated in 3D | `python wave-equation-simulator/wave_simulator.py` |
 | [stock-portfolio-dashboard](stock-portfolio-dashboard/) | Portfolio dashboard from real Yahoo Finance prices: returns, volatility, correlations, drawdowns, risk vs return | `python stock-portfolio-dashboard/portfolio_dashboard.py` |
 | [neural-network-from-scratch](neural-network-from-scratch/) | MLP in pure NumPy, trained on real handwritten digits, with loss-landscape + gradient-descent-path plots | `python neural-network-from-scratch/neural_network.py` |
-| [i-love-you-heart](i-love-you-heart/) | "I love you" in 20 languages, one per row, forming a heart in the terminal | `python i-love-you-heart/heart.py` |
 
 Each project folder has its own README with full usage and examples.
 
@@ -32,6 +31,3 @@ The three newest projects are from
 the neural net trains on the real sklearn digits dataset — no synthetic data
 presented as real anywhere in this repo.
 
-The newest project is from
-[@buildmeri's reel "Coding 'I love you' in 20 languages in the terminal"](https://www.instagram.com/reel/DgOHHR3owsV/)
-(Nov 26, 2026).
