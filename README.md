@@ -22,12 +22,9 @@ yfinance, and scikit-learn (`pip install -r <project>/requirements.txt`).
 | [wave-equation-simulator](wave-equation-simulator/) | Vibrating drum skin: damped 2D wave equation, finite differences, animated in 3D | `python wave-equation-simulator/wave_simulator.py` |
 | [stock-portfolio-dashboard](stock-portfolio-dashboard/) | Portfolio dashboard from real Yahoo Finance prices: returns, volatility, correlations, drawdowns, risk vs return | `python stock-portfolio-dashboard/portfolio_dashboard.py` |
 | [neural-network-from-scratch](neural-network-from-scratch/) | MLP in pure NumPy, trained on real handwritten digits, with loss-landscape + gradient-descent-path plots | `python neural-network-from-scratch/neural_network.py` |
+| [i-love-you-heart](i-love-you-heart/) | "I love you" in 20 languages, one per row, forming a heart in the terminal | `python i-love-you-heart/heart.py` |
 
 Each project folder has its own README with full usage and examples.
 
-The three newest projects are from
-[@mario.ships' reel "3 Python projects that make recruiters stop scrolling"](https://www.instagram.com/reel/DfPvsXetLBa/)
-(Nov 2, 2026). The stock dashboard uses real market prices via yfinance and
-the neural net trains on the real sklearn digits dataset — no synthetic data
-presented as real anywhere in this repo.
+The stock dashboard uses real market prices via yfinance and the neural net trains on the real sklearn digits dataset — no synthetic data presented as real anywhere in this repo.
 
